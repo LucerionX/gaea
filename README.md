@@ -3,6 +3,8 @@
 
 **Gaea** adalah bot mining otomatis dengan dukungan untuk penggunaan lokal (IP VPS) dan proxy, serta fitur refresh otomatis saat skor jaringan di bawah batas tertentu.
 
+Link:https://app.aigaea.net/register?ref=gaEUpZ0kxAlWiG
+
 ## 📋 Fitur
 - **Mining Local**: Melakukan mining menggunakan IP lokal atau VPS.
 - **Mining Proxy**: Mendukung mining melalui proxy.
