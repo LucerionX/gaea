@@ -9,6 +9,7 @@ Link:https://app.aigaea.net/register?ref=gaEUpZ0kxAlWiG
 - **Mining Local**: Melakukan mining menggunakan IP lokal atau VPS.
 - **Mining Proxy**: Mendukung mining melalui proxy.
 - **Auto Refresh**: Memuat ulang otomatis jika skor jaringan di bawah 50, memastikan koneksi tetap optimal.
+- **Auto Checkin Daily**: Otomatis melakukan checkin setiap hari.
 
 ## 🚀 Instalasi
 1. **Instal Dependencies**:
@@ -23,6 +24,7 @@ Link:https://app.aigaea.net/register?ref=gaEUpZ0kxAlWiG
    - Tekan `F12` untuk membuka Developer Tools, lalu tekan `Ctrl + R` untuk reload.
    - Buka tab **Network** dan cari request dengan nama `session`.
    - Gulir untuk menemukan token Bearer, yang akan terlihat seperti `Bearer eyxxxx`.
+   - Paste ke **accounts.txt** untuk mining dan **hash.txt** untuk checkin.
 
 3. **Dapatkan Proxy Gratis**:
    - Untuk menggunakan proxy gratis, Anda bisa mengunjungi [Webshare.io](https://www.webshare.io/?referral_code=nppjfy3iuura) dan klaim 10 proxy premium gratis.
