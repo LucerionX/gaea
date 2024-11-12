@@ -21,12 +21,24 @@ Link:https://app.aigaea.net/register?ref=gaEUpZ0kxAlWiG
 
 2. **Dapatkan Bearer Token**:
    - Buka aplikasi web yang ingin digunakan bersama **Gaea**.
-   - Tekan `F12` untuk membuka Developer Tools, lalu tekan `Ctrl + R` untuk reload.
-   - Buka tab **Network** dan cari request dengan nama `session`.
-   - Gulir untuk menemukan token Bearer, yang akan terlihat seperti `Bearer eyxxxx`.
-   - Paste ke **accounts.txt** untuk mining dan **hash.txt** untuk checkin.
+   - Tekan `F12` untuk membuka Developer Tools, lalu tekan gambar console.
+   - Paste code ini di console:
+   ```bash
+   const browserId = localStorage.getItem("browser_id").substring(0, 8);
+   const gaeaToken = localStorage.getItem("gaea_token");
+   const data = `{"browser_id": "${browserId}", "gaea_token": "${gaeaToken}"}`;
+   copy(data);
+   console.log("Data copied to clipboard:", data);
+   ```
+   - Paste hasil auto copy kedalam dalam file accounts.txt
+     
+   ![Screenshot 2024-11-12 230333](https://github.com/user-attachments/assets/3f8c3cba-bf61-4fd8-b27c-a621daf2c1e7)
+   
 
-3. **Dapatkan Proxy Gratis**:
+
+   
+
+4. **Dapatkan Proxy Gratis**:
    - Untuk menggunakan proxy gratis, Anda bisa mengunjungi [Webshare.io](https://www.webshare.io/?referral_code=nppjfy3iuura) dan klaim 10 proxy premium gratis.
 
 ## ⚠️ Catatan
